@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIRest_Geo", "APIRest_Geo.csproj", "{74E99F58-8B3B-43AF-B4F0-29EDE6392B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocalizaOSM", "..\GeolocalizaOSM\GeolocalizaOSM.csproj", "{FCFC69EE-68ED-4253-8C08-890B609A3094}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIRest", "APIRest", "{010212AA-073C-43F6-8AB8-16819F56FE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Geolocalizador", "Geolocalizador", "{978715AE-F72A-474B-8A46-185D6DBBDCA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74E99F58-8B3B-43AF-B4F0-29EDE6392B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E99F58-8B3B-43AF-B4F0-29EDE6392B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E99F58-8B3B-43AF-B4F0-29EDE6392B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E99F58-8B3B-43AF-B4F0-29EDE6392B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCFC69EE-68ED-4253-8C08-890B609A3094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFC69EE-68ED-4253-8C08-890B609A3094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFC69EE-68ED-4253-8C08-890B609A3094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFC69EE-68ED-4253-8C08-890B609A3094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74E99F58-8B3B-43AF-B4F0-29EDE6392B86} = {010212AA-073C-43F6-8AB8-16819F56FE27}
+		{FCFC69EE-68ED-4253-8C08-890B609A3094} = {978715AE-F72A-474B-8A46-185D6DBBDCA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9B3E963-BC61-45F0-A79D-74FD5B30CEE6}
+	EndGlobalSection
+EndGlobal
