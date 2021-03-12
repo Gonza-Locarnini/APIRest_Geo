@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Concurrent;
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using System.Threading;
 using System.Threading.Tasks;
 using APIRest_Geo.Models;
 using APIRest_Geo.Services;
 using Microsoft.AspNetCore.Mvc;
-using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
 namespace APIRest_Geo.Controllers
