@@ -40,6 +40,7 @@ namespace APIRest_Geo.Services
                 {
                     g.Latitud = model.Latitud;
                     g.Longitud = model.Longitud;
+                    g.Estado = model.Estado;
                     db.SaveChanges();
                 }
             }

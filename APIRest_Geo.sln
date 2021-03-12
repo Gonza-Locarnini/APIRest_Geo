@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIRest_Geo", "APIRest_Geo.csproj", "{74E99F58-8B3B-43AF-B4F0-29EDE6392B86}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeolocalizaOSM", "..\GeolocalizaOSM\GeolocalizaOSM.csproj", "{FCFC69EE-68ED-4253-8C08-890B609A3094}"
-	ProjectSection(ProjectDependencies) = postProject
-		{74E99F58-8B3B-43AF-B4F0-29EDE6392B86} = {74E99F58-8B3B-43AF-B4F0-29EDE6392B86}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIRest", "APIRest", "{010212AA-073C-43F6-8AB8-16819F56FE27}"
 EndProject

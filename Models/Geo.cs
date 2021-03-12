@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace APIRest_Geo.Models
 {
     public class Geo
-    { 
-        public enum eEstados { Procesando=0, Terminado=1, ErrorOSM=2 };
+    {
+        public enum eEstados { Procesando = 0, Terminado = 1, ErrorOSM = 2 };
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }

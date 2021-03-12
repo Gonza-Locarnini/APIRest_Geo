@@ -2,6 +2,7 @@
 using System.Collections.Concurrent;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using APIRest_Geo.Models;
@@ -19,16 +20,14 @@ namespace APIRest_Geo.Controllers
         public GeoRepository _repo { get; set; }
 
         [HttpGet]
-        public object Get()
+        public object Get([FromQuery(Name = "id")] string id)
         {
             _repo = new GeoRepository();
+            Regex r = new Regex(@"[^0-9]");
+            if (id != null && id != "" && !r.IsMatch(id))
+                return Models.Response.Parse(_repo.Get(int.Parse(id)));
+
             return _repo.Get();
-        }
-        [HttpGet("id")]
-        public object Get(int id)
-        {
-            _repo = new GeoRepository();
-            return _repo.Get(id);
         }
 
         [HttpPost]
