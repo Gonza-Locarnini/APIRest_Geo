@@ -11,7 +11,7 @@ using RabbitMQ.Client.Events;
 namespace APIRest_Geo.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("geolocalizar")]
     public class API_GEOController : ControllerBase
     {
         public GeoRepository _repo { get; set; }

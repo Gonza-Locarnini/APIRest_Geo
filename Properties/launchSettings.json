@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "API_GEO",
+      "launchUrl": "geolocalizar",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "APIRest_Geo": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "API_GEO",
+      "launchUrl": "geolocalizar",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
